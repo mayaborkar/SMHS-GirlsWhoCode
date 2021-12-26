@@ -31,7 +31,7 @@ def main():
         window.fill(WHITE)
         # 6. show the screen
         window.blit(SHIP1, (300,100))
-        # 8. Show the next space ship
+        # 9. Show the next space ship
         window.blit(SHIP2, (700, 100))
         pygame.display.update()
     pygame.quit()
