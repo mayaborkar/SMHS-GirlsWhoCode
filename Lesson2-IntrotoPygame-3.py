@@ -8,7 +8,7 @@ WHITE = (255,255,255)
 # 1.  Define the screen refresh rate
 FPS = 60
 #5. Import Ship Image
-SHIP1_IMAGE =  pygame.image.load("spaceship_red.png")
+SHIP1_IMAGE =  pygame.image.load("Related/spaceship_red.png")
 # 7. size the ship
 SPACESHIP_WIDTH = 55
 SPACESHIP_HEIGHT = 40
