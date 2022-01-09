@@ -1,8 +1,8 @@
 import pygame
 
 # 1. Set Screen width/height and register the screen
-SCREENWIDTH = 900
-SCREENHEIGHT = 500
+# SCREENWIDTH = 900
+# SCREENHEIGHT = 500
 
 # 2.  write a for loop to ;
 def main ():
@@ -15,5 +15,6 @@ def main ():
                 run = False
     pygame.quit()
 
-window = pygame.display.set_mode((SCREENWIDTH,SCREENHEIGHT))
+# window = pygame.display.set_mode((SCREENWIDTH,SCREENHEIGHT))
+
 main()

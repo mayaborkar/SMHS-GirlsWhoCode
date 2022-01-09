@@ -75,6 +75,7 @@ def main():
     while intro:
         screen.fill(WHITE)
         screen.blit(title, titlepos)
+
         # Blinking Text
         cur_time = pygame.time.get_ticks()
         if ((cur_time - beg_time) % 1000) < 500:
