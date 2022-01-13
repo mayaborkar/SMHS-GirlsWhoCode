@@ -9,7 +9,6 @@ width = 970
 height = 520
 fps = 60
 
-
 class Paddle:
     def __init__(self, width, height, speed, xpos):
         self.width = width
