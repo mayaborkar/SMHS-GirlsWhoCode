@@ -99,6 +99,7 @@ def main():
             if event.type == pygame.QUIT:
                 sys.exit()
             if event.type == pygame.KEYDOWN:
+                # second player keys
                 if event.key == pygame.K_w:
                     p1_up = True
                     p1_down = False
