@@ -80,6 +80,9 @@ def main():
         cur_time = pygame.time.get_ticks()
         if ((cur_time - beg_time) % 1000) < 500:
             screen.blit(sub_title, sub_titlepos)
+
+            # pygame.display.flip()
+
         for event in pygame.event.get():
             if event.type == pygame.QUIT:
                 sys.exit()
@@ -103,9 +106,17 @@ def main():
                     p1_up = False
                     p1_down = True
                 if event.key == pygame.K_UP:
+                    # remove p1 to make this a two players
+                    p1_up = True
+                    p1_down = False
+                    # remove p1 to make this a two players
                     p2_up = True
                     p2_down = False
                 elif event.key == pygame.K_DOWN:
+                    # remove p1 to make this a two players
+                    p1_up = False
+                    p1_down = True
+                    # remove p1 to make this a two players
                     p2_up = False
                     p2_down = True
             if event.type == pygame.KEYUP:
